@@ -2,6 +2,8 @@ import express from 'express'
 import mongoose from 'mongoose'
 import productsRoute from './routes/productsRoute.js'
 import cors from 'cors'
+import dotenv from 'dotenv';
+dotenv.config()
 
 // Create an express app from 'mongoose'
 
